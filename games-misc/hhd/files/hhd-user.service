@@ -1,0 +1,7 @@
+[Unit]
+Description=Handheld Daemon User Service
+
+[Service]
+ExecStart=hhd
+Restart=on-failure
+RestartSec=10

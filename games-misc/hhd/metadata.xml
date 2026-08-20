@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Handheld Daemon. A tool for managing the quirks of handheld devices.
+    </longdescription>
+    <longdescription lang="es">
+        Handheld Daemon. Una herramienta para gestionar los controles de consolas portátiles.
+    </longdescription>
+    <use>
+        <flag name="systemd" lang="en">Allows automatic startup via SystemD service. Enable with `systemctl enable --now hhd@$(wmoami)` or `systemctl --user enable --now hhd-user`.</flag>
+        <flag name="openrc" lang="en">Allows automatic startup via OpenRC service. Enable with `rc-update --user add hhd-user default`.</flag>
+        <flag name="systemd" lang="es">Permite inicio automático con servicio de SystemD. Habilita con `systemctl enable --now hhd@$(wmoami)` o `systemctl --user enable --now hhd-user`.</flag>
+        <flag name="openrc" lang="en">Permite inicio automático con servicio de OpenRC. Habilita con `rc-update --user add hhd-user default`.</flag>
+    </use>
+    <upstream>
+        <remote-id type="github">hhd-dev/hhd</remote-id>
+    </upstream>
+</pkgmetadata>

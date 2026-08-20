@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>val-vgms</name>
+        <description lang="en">Random package collection, mostly related to games and customization.</description>
+        <description lang="es">Colección aleatoria de paquetes, mayormente relacionados con juegos y personalización.</description>
+        <homepage>https://github.com/my-name/my-overlay</homepage>
+        <owner type="person">
+            <name>Val</name>
+            <email>valeriagracielamendezsanchez@gmail.com</email>
+        </owner>
+        <source type="git">git://repo.val-vgms.gay/repo/gentoo</source>
+        <!--
+        <feed>https://github.com/my-name/my-overlay/commits/master.atom</feed>
+        -->
+    </repo>
+</repositories>

@@ -1,0 +1,6 @@
+#!/sbin/openrc-run
+
+description="Handheld Daemon User Service"
+
+supervisor=supervise-daemon
+command="hhd"

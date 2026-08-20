@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>valeriagracielamendezsanchez@gmail.com</email>
+<name>Val</name>
+</maintainer>
+<longdescription lang="en">
+	Emoji as a Service (formerly known as EmojiOne)
+</longdescription>
+<longdescription lang="es">
+	Emoji como servicio (antes conocido como EmojiOne)
+</longdescription>
+<upstream>
+	<remote-id>https://joypixels.com/</remote-id>
+</upstream>
+</pkgmetadata>
