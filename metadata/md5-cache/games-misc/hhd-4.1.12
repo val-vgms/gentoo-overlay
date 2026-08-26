@@ -1,0 +1,15 @@
+BDEPEND=dev-python/build dev-python/installer dev-python/setuptools dev-python/wheel dev-python/babel dev-libs/hidapi virtual/pkgconfig
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=dev-lang/python dev-python/setuptools dev-python/evdev dev-python/rich dev-python/pyyaml dev-python/python-xlib dev-python/dbus-python dev-libs/libusb dev-python/pyserial sys-process/lsof dev-python/pyroute2 dev-python/pygobject dev-libs/hidapi
+DESCRIPTION=Handheld Daemon. A tool for managing the quirks of handheld devices.
+EAPI=8
+HOMEPAGE=https://github.com/hhd-dev/hhd
+INHERIT=udev
+IUSE=systemd openrc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2.1-or-later
+RDEPEND=dev-lang/python dev-python/setuptools dev-python/evdev dev-python/rich dev-python/pyyaml dev-python/python-xlib dev-python/dbus-python dev-libs/libusb dev-python/pyserial sys-process/lsof dev-python/pyroute2 dev-python/pygobject dev-libs/hidapi
+SLOT=0
+SRC_URI=https://github.com/hhd-dev/hhd/archive/refs/tags/v4.1.12.tar.gz -> hhd-4.1.12.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	udev	1a23882bb73bc31c64a6f00a5e515f34
+_md5_=fe104939151708f288076d97380df6e4

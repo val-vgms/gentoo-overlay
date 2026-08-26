@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Colloid icon theme for Linux desktops
+    </longdescription>
+    <longdescription lang="es">
+        Tema de iconos coloidal para escrotirios Linux
+    </longdescription>
+    <use>
+        <flag name="kde" lang="en">Replaces Apple logo with KDE Plasma logo</flag>
+        <flag name="alt" lang="en">Install alternate icons for Software Center and File Manager</flag>
+        <flag name="bold" lang="en">Install bolder panel icons version (1.5px size)</flag>
+        <flag name="notint" lang="en">Disable Follow color scheme for folders on KDE Plasma</flag>
+        <flag name="scheme_default" lang="en">Folder color scheme variant by default</flag>
+        <flag name="scheme_nord" lang="en">Folder color scheme variant Nord</flag>
+        <flag name="scheme_dracula" lang="en">Folder color scheme variant Dracula</flag>
+        <flag name="scheme_gruvbox" lang="en">Folder color scheme variant Gruvbox</flag>
+        <flag name="scheme_everforest" lang="en">Folder color scheme variant Everforest</flag>
+        <flag name="scheme_catppucchin" lang="en">Folder color scheme variant Catppuccin</flag>
+        <flag name="scheme_all" lang="en">All folder color scheme variants</flag>
+        <flag name="color_blue" lang="en">Install default folder color variant</flag>
+        <flag name="color_purple" lang="en">Install purple folder color variant</flag>
+        <flag name="color_pink" lang="en">Install pink folder color variant</flag>
+        <flag name="color_red" lang="en">Install red folder color variant</flag>
+        <flag name="color_orange" lang="en">Install orange folder color variant</flag>
+        <flag name="color_yelloy" lang="en">Install yellow folder color variant</flag>
+        <flag name="color_green" lang="en">Install green folder color variant</flag>
+        <flag name="color_teal" lang="en">Install teal folder color variant</flag>
+        <flag name="color_grey" lang="en">Install grey folder color variant</flag>
+        <flag name="color_all" lang="en">Install all folder color variants</flag>
+        <flag name="hardlink" lang="en">Links duplicate icons</flag>
+        <flag name="kde" lang="es">Reemplaza el logo de Apple con el logo de KDE Plasma</flag>
+        <flag name="alt" lang="es">Instala iconos alternativos para el centro de software y el administrador de archivos</flag>
+        <flag name="bold" lang="es">Instala iconos de panel más marcados (tamaño a 1.5px)</flag>
+        <flag name="notint" lang="es">Deshabilita seguir el esquema de colores para carpetas en KDE Plasma</flag>
+        <flag name="scheme_default" lang="es">Esquema de colores de carpetas por defecto</flag>
+        <flag name="scheme_nord" lang="es">Esquema de colores de carpetas Nord</flag>
+        <flag name="scheme_dracula" lang="es">Esquema de colores de carpetas Dracula</flag>
+        <flag name="scheme_gruvbox" lang="es">Esquema de colores de carpetas Gruvbox</flag>
+        <flag name="scheme_everforest" lang="es">Esquema de colores de carpetas Everforest</flag>
+        <flag name="scheme_catppucchin" lang="es">Esquema de colores de carpetas Catppuccin</flag>
+        <flag name="scheme_all" lang="es">Todos los esquemas de colores de carpetas</flag>
+        <flag name="color_blue" lang="es">Variante de color de carpetas por defecto</flag>
+        <flag name="color_purple" lang="es">Variante morada de color de carpetas</flag>
+        <flag name="color_pink" lang="es">Variante rosa de color de carpetas </flag>
+        <flag name="color_red" lang="es">Variante roja de color de carpetas </flag>
+        <flag name="color_orange" lang="es">Variante naranja de color de carpetas </flag>
+        <flag name="color_yelloy" lang="es">Variante amarilla de color de carpetas </flag>
+        <flag name="color_green" lang="es">Variante verde de color de carpetas </flag>
+        <flag name="color_teal" lang="es">Variante turquesa de color de carpetas </flag>
+        <flag name="color_grey" lang="es">Variante gris de color de carpetas </flag>
+        <flag name="color_all" lang="es">Todas las variantes de colores de carpetas</flag>
+        <flag name="hardlink" lang="es">Enlaza iconos duplicados</flag>
+    </use>
+    <upstream>
+        <remote-id type="github">vinceliuice/Colloid-icon-theme</remote-id>
+    </upstream>
+</pkgmetadata>

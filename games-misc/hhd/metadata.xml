@@ -15,7 +15,7 @@
         <flag name="systemd" lang="en">Allows automatic startup via SystemD service. Enable with `systemctl enable --now hhd@$(wmoami)` or `systemctl --user enable --now hhd-user`.</flag>
         <flag name="openrc" lang="en">Allows automatic startup via OpenRC service. Enable with `rc-update --user add hhd-user default`.</flag>
         <flag name="systemd" lang="es">Permite inicio automático con servicio de SystemD. Habilita con `systemctl enable --now hhd@$(wmoami)` o `systemctl --user enable --now hhd-user`.</flag>
-        <flag name="openrc" lang="en">Permite inicio automático con servicio de OpenRC. Habilita con `rc-update --user add hhd-user default`.</flag>
+        <flag name="openrc" lang="es">Permite inicio automático con servicio de OpenRC. Habilita con `rc-update --user add hhd-user default`.</flag>
     </use>
     <upstream>
         <remote-id type="github">hhd-dev/hhd</remote-id>
