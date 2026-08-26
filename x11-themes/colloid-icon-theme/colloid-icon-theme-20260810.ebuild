@@ -58,7 +58,7 @@ src_install() {
 
 	local options=()
 
-	use kde && options+=( -p )
+	use kde && options+=( --kde-plasma )
 	use alt && options+=( -a )
 	use bold && options+=( -b )
 	use notint && options+=( --notint )
