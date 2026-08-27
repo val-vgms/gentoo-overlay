@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        A flat GTK+ theme based on Material Design
+    </longdescription>
+    <longdescription lang="es">
+        Tema GTK+ plano basado en Material Design
+    </longdescription>
+    <upstream>
+        <remote-id type="github">vinceliuice/Layan-gtk-theme</remote-id>
+    </upstream>
+</pkgmetadata>
