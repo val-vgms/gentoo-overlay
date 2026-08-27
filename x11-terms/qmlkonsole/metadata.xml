@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Terminal app for Plasma Mobile
+    </longdescription>
+    <longdescription lang="es">
+        Aplicación de terminal para Plasma Mobile
+    </longdescription>
+    <upstream>
+        <remote-id>https://invent.kde.org/plasma-mobile/qmlkonsole</remote-id>
+    </upstream>
+</pkgmetadata>
