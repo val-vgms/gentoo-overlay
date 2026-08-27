@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>valeriagracielamendezsanchez@gmail.com</email>
+<name>Val</name>
+</maintainer>
+<longdescription lang="en">
+	The new default Microsoft 365 font, used by Microsoft
+</longdescription>
+<longdescription lang="es">
+	La nueva tipografía por defecto de Microsoft 365, usada por Microsoft
+</longdescription>
+<upstream>
+	<remote-id>https://learn.microsoft.com/en-us/typography/font-list/aptos</remote-id>
+</upstream>
+</pkgmetadata>
