@@ -25,7 +25,6 @@ sys-libs/glibc
 dev-libs/kirigami-addons
 >=kde-frameworks/kpty-${KFMIN}
 >=kde-frameworks/kwindowsystem-${KFMIN}
-sys-libs/libstdc++-v3
 >=dev-qt/qt5compat-${QTMIN}
 >=dev-qt/qtbase-${QTMIN}
 >=dev-qt/qtdeclarative-${QTMIN}
