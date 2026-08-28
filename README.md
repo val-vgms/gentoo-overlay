@@ -12,31 +12,39 @@ sudo eselect repository add val-vgms git https://github.com/val-vgms/gentoo-over
 
 Los paquetes disponibles aquí son:
 
-###**Juegos**
+**Juegos**
 
 [games-misc/hhd](https://github.com/hhd-dev/hhd): Handheld Daemon, una herramienta para gestionar los controles de consolas portátiles.
 
-###**Tipografías**
+
+**Tipografías**
 
 [media-fonts/joypixels](https://joypixels.com/): Emoji como servicio (antes conocido como EmojiOne)
+
 [media-fonts/ttf-aptos](https://learn.microsoft.com/en-us/typography/font-list/aptos): La nueva tipografía por defecto de Microsoft 365, usada por Microsoft
 
-###**Terminales**
+
+**Terminales**
 
 [x11-terms/qmlkonsole](https://invent.kde.org/plasma-mobile/qmlkonsole): Aplicación de terminal para Plasma Mobile
 
-###**Paquetes de iconos**
+
+**Paquetes de iconos**
 
 [x11-themes/colloid-icon.theme](https://github.com/vinceliuice/Colloid-icon-theme): Tema de iconos coloidal para escrotirios Linux
 
-###**Cursores**
+
+**Cursores**
 
 [x11-themes/layan-cursors](https://github.com/vinceliuice/Layan-cursors): Tema de punteros X basado en Capitaine Cursors
 
-###**Temas de escrotirio**
+
+**Temas de escrotirio**
 
 [x11-themes/layan-gtk-theme](https://github.com/vinceliuice/Layan-gtk-theme): Tema GTK+ plano basado en Material Design
+
 [x11-themes/layan-plasma](https://github.com/vinceliuice/Layan-kde): Tema Layan para KDE Plasma
+
 
 <hr />
 
