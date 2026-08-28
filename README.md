@@ -48,4 +48,4 @@ Los paquetes disponibles aquí son:
 
 <hr />
 
-Paquetes monitoreados para ser actualziados en cuanto una versión estable esté disponible. Comentarios y sugerencias actualizados.
+Paquetes monitoreados para ser actualziados en cuanto una versión estable esté disponible. Comentarios y sugerencias aceptados.
