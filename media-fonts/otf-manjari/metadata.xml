@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>valeriagracielamendezsanchez@gmail.com</email>
+<name>Val</name>
+</maintainer>
+<longdescription lang="en">
+	Malayalam unicode font with rounded terminals suitable for body text.
+</longdescription>
+<longdescription lang="es">
+	Tipografía unicode malabarí con terminaciones redondas adecuada para cuerpos de texto.
+</longdescription>
+<upstream>
+	<remote-id>https://smc.org.in/fonts</remote-id>
+</upstream>
+</pkgmetadata>

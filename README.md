@@ -21,6 +21,8 @@ Los paquetes disponibles aquí son:
 
 [media-fonts/joypixels](https://joypixels.com/): Emoji como servicio (antes conocido como EmojiOne)
 
+[media-fonts/otf-manjari](https://smc.org.in/fonts): Tipografía unicode malabarí con terminaciones redondas adecuada para cuerpos de texto.
+
 [media-fonts/ttf-aptos](https://learn.microsoft.com/en-us/typography/font-list/aptos): La nueva tipografía por defecto de Microsoft 365, usada por Microsoft
 
 
