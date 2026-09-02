@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.27.0
-QTMIN=6.11.2
+KFMIN=6.27
+QTMIN=6.11
 inherit ecm gear.kde.org
 
 DESCRIPTION="Terminal app for Plasma Mobile"
@@ -14,7 +14,6 @@ SRC_URI="https://invent.kde.org/plasma-mobile/${PN}/-/archive/v${PV}/${P}.tar.gz
 
 LICENSE="GPL-2.0-or-later"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~arm64"
 
 DEPEND="
 sys-libs/glibc
@@ -22,7 +21,7 @@ sys-libs/glibc
 >=kde-frameworks/kcoreaddons-${KFMIN}
 >=kde-frameworks/ki18n-${KFMIN}
 >=kde-frameworks/kirigami-${KFMIN}
-dev-libs/kirigami-addons
+>=dev-libs/kirigami-addons-1.12
 >=kde-frameworks/kpty-${KFMIN}
 >=kde-frameworks/kwindowsystem-${KFMIN}
 >=dev-qt/qt5compat-${QTMIN}
