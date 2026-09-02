@@ -4,10 +4,10 @@ Este repositorio contiene paquetes que no pude encontrar en otros overlays dispo
 
 Cada ebuild fue escrito completamente a mano, aunque basándome en otros ebuilds y plantillas para lograr su ejecución final, y estará en crecimiento lento pero constante.
 
-Para añadir este repositorio, por el momento sólo está disponible manualmente, a través de `eselect repository`.
+Para añadir este repositorio, puedes hacerlo a través de `eselect repository`.
 
 ```sh
-sudo eselect repository add val-vgms git https://github.com/val-vgms/gentoo-overlay.git
+sudo eselect repository enable val-vgms
 ```
 
 Los paquetes disponibles aquí son:
