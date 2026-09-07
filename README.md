@@ -2,7 +2,7 @@
 
 Este repositorio contiene paquetes que no pude encontrar en otros overlays disponibles en la [lista de repositorios de layman](https://gpo.zugaina.org/). Cubriendo diferentes ramas, pero más enfocado en juegos y personalización como temas o tipografías.
 
-Cada ebuild fue escrito completamente a mano, aunque basándome en otros ebuilds y plantillas para lograr su ejecución final, y estará en crecimiento lento pero constante.
+Cada ebuild fue escrito completamente a mano, aunque basándome en otros ebuilds y plantillas para lograr su ejecución final, y este repositorio estará en crecimiento lento pero constante.
 
 Para añadir este repositorio, puedes hacerlo a través de `eselect repository`.
 
@@ -46,6 +46,10 @@ Los paquetes disponibles aquí son:
 [x11-themes/layan-gtk-theme](https://github.com/vinceliuice/Layan-gtk-theme): Tema GTK+ plano basado en Material Design
 
 [x11-themes/layan-plasma](https://github.com/vinceliuice/Layan-kde): Tema Layan para KDE Plasma
+
+[x11-themes/lavanda-gtk-theme](https://github.com/vinceliuice/Lavanda-gtk-theme): Tema Lavanda para entornos de escritorio basados en GTK+
+
+[x11-themes/lavanda-plasma](https://github.com/vinceliuice/Lavanda-kde): Tema Lavanda para KDE Plasma
 
 
 <hr />
