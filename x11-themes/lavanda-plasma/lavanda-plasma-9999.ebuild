@@ -5,22 +5,18 @@ EAPI=8
 
 inherit check-reqs edo xdg git-r3
 
-MY_PN="Lavanda-kde"
-MY_PV="${PV:0:4}-${PV:4:2}-${PV:6:2}" # eg. 20211225 -> 2021-12-25
-
 DESCRIPTION="Lavanda KDE Plasma theme"
 HOMEPAGE="https://github.com/vinceliuice/Lavanda-kde"
 
 EGIT_REPO_URI="https://github.com/vinceliuice/Lavanda-kde.git"
 KEYWORDS="~amd64 ~arm64 ~ppc64"
-# S="${WORKDIR}
-
 
 LICENSE="GPL-3+"
 SLOT="0"
 
 BDEPEND="
 	app-shells/bash
+	dev-lang/sassc
 "
 
 DOCS=(

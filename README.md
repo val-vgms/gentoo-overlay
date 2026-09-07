@@ -33,7 +33,7 @@ Los paquetes disponibles aquí son:
 
 **Paquetes de iconos**
 
-[x11-themes/colloid-icon.theme](https://github.com/vinceliuice/Colloid-icon-theme): Tema de iconos coloidal para escrotirios Linux
+[x11-themes/colloid-icon-theme](https://github.com/vinceliuice/Colloid-icon-theme): Tema de iconos coloidal para escrotirios Linux
 
 
 **Cursores**
