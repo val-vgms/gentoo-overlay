@@ -17,6 +17,11 @@ Los paquetes disponibles aquí son:
 [games-misc/hhd](https://github.com/hhd-dev/hhd): Handheld Daemon, una herramienta para gestionar los controles de consolas portátiles.
 
 
+**Administración de archivos**
+
+[kde-misc/kio-onedrive](https://invent.kde.org/bernardogn/kio-onedrive): Función KIO para el servicio de OneDrive
+
+
 **Tipografías**
 
 [media-fonts/joypixels](https://joypixels.com/): Emoji como servicio (antes conocido como EmojiOne)

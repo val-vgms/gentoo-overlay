@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        KIO worker for OneDrive service
+    </longdescription>
+    <longdescription lang="es">
+        Función KIO para el servicio de OneDrive
+    </longdescription>
+    <upstream>
+        <remote-id>https://invent.kde.org/bernardogn/kio-onedrive</remote-id>
+    </upstream>
+</pkgmetadata>
