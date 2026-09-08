@@ -19,7 +19,7 @@ S="${WORKDIR}/${MY_PN}-${MY_PV}"
 
 LICENSE="GPL-3+"
 SLOT="0"
-IUSE="kde alt bold notint scheme_default scheme_nord scheme_dracula scheme_gruvbox scheme_everforest scheme_catppuccin scheme_all color_blue color_purple color_pink color_red color_orange color_yellow color_green color_teal color_grey color_all hardlink "
+IUSE="alt bold notint scheme_default scheme_nord scheme_dracula scheme_gruvbox scheme_everforest scheme_catppuccin scheme_all color_blue color_purple color_pink color_red color_orange color_yellow color_green color_teal color_grey color_all hardlink "
 REQUIRED_USE="^^ ( scheme_default scheme_nord scheme_dracula scheme_gruvbox scheme_everforest scheme_catppuccin scheme_all )"
 REQUIRED_USE="^^ ( color_blue color_purple color_pink color_red color_orange color_yellow color_green color_teal color_grey color_all )"
 RESTRICT="binchecks strip test"
@@ -58,7 +58,6 @@ src_install() {
 
 	local options=()
 
-	use kde && options+=( --kde-plasma )
 	use alt && options+=( -a )
 	use bold && options+=( -b )
 	use notint && options+=( --notint )

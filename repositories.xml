@@ -9,6 +9,6 @@
             <name>Val</name>
             <email>valeriagracielamendezsanchez@gmail.com</email>
         </owner>
-        <source type="git">https://github.com/val-vgms/gentoo-overlay/source>
+        <source type="git">https://github.com/val-vgms/gentoo-overlay/</source>
     </repo>
 </repositories>
