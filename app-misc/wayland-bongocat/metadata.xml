@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Bongocat for your desktop ₍^. .^₎
+    </longdescription>
+    <longdescription lang="es">
+        Bongocat para tu escritorio ₍^. .^₎
+    </longdescription>
+    <upstream>
+        <remote-id>https://github.com/saatvik333/wayland-bongocat</remote-id>
+    </upstream>
+</pkgmetadata>

@@ -57,6 +57,11 @@ Los paquetes disponibles aquí son:
 [x11-themes/lavanda-plasma](https://github.com/vinceliuice/Lavanda-kde): Tema Lavanda para KDE Plasma
 
 
+**Acompañantes de escritorio**
+
+[app-misc/wayland-bongocat](https://github.com/saatvik333/wayland-bongocat): Bongocat para tu escritorio. ₍^. .^₎
+
+
 <hr />
 
 Paquetes monitoreados para ser actualziados en cuanto una versión estable esté disponible. Comentarios y sugerencias aceptados.
