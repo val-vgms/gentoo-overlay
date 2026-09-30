@@ -62,6 +62,16 @@ Los paquetes disponibles aquí son:
 [app-misc/wayland-bongocat](https://github.com/saatvik333/wayland-bongocat): Bongocat para tu escritorio. ₍^. .^₎
 
 
+**Aplicaciones gráficas**
+
+[kde-apps/koko](https://invent.kde.org/graphics/koko): Aplicación de galería de imágenes
+
+
+**Librerías**
+
+[kde-frameworks/extra-cmake-modules](https://invent.kde.org/frameworks/extra-cmake-modules): Módulos y scripts adicionales para CMake
+
+
 <hr />
 
 Paquetes monitoreados para ser actualziados en cuanto una versión estable esté disponible. Comentarios y sugerencias aceptados.
