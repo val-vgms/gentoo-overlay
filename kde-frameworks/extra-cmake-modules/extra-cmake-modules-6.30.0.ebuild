@@ -17,6 +17,8 @@ IUSE="doc test"
 
 RESTRICT="!test? ( test )"
 
+SLOT="6"
+
 RDEPEND="app-arch/libarchive[bzip2]"
 DEPEND="
 	test? (
