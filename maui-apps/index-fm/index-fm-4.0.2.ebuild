@@ -15,7 +15,7 @@ HOMEPAGE="https://apps.kde.org/koko/ https://userbase.kde.org/Photos"
 
 LICENSE="GPL-2+ handbook? ( FDL-1.2 )"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/graphics/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://invent.kde.org/plasma-mobile/${PN}/-/archive/v${PV}/${P}.tar.gz"
 IUSE="X"
 SLOT="6"
 
