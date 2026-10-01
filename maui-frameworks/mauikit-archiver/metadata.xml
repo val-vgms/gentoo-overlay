@@ -6,10 +6,10 @@
         <name>Val</name>
     </maintainer>
     <longdescription lang="en">
-        Multi-platform File Manager
+        QtQuick plugin for online archived/compressed files management
     </longdescription>
     <longdescription lang="es">
-        Gestor de archivos multiplataforma
+        Plugin QtQuick para gestión de archivos comprimidos
     </longdescription>
     <upstream>
         <remote-id>https://invent.kde.org/maui/index-fm</remote-id>

@@ -6,10 +6,10 @@
         <name>Val</name>
     </maintainer>
     <longdescription lang="en">
-        Multi-platform File Manager
+        MauiKit QtQuick plugins for text editing
     </longdescription>
     <longdescription lang="es">
-        Gestor de archivos multiplataforma
+        Plugin QtQuick de MauiKit para edición de texto
     </longdescription>
     <upstream>
         <remote-id>https://invent.kde.org/maui/index-fm</remote-id>

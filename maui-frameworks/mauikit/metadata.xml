@@ -6,10 +6,10 @@
         <name>Val</name>
     </maintainer>
     <longdescription lang="en">
-        Multi-platform File Manager
+        Templated convergent controls and multi-platform utilities for Maui applications
     </longdescription>
     <longdescription lang="es">
-        Gestor de archivos multiplataforma
+        Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
     </longdescription>
     <upstream>
         <remote-id>https://invent.kde.org/maui/index-fm</remote-id>

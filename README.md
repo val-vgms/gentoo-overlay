@@ -21,6 +21,8 @@ Los paquetes disponibles aquí son:
 
 [kde-misc/kio-onedrive](https://invent.kde.org/bernardogn/kio-onedrive): Función KIO para el servicio de OneDrive
 
+[maui-apps/index-fm](https://invent.kde.org/maui/index-fm): Gestor de archivos multiplataforma
+
 
 **Tipografías**
 
@@ -70,6 +72,20 @@ Los paquetes disponibles aquí son:
 **Librerías**
 
 [kde-frameworks/extra-cmake-modules](https://invent.kde.org/frameworks/extra-cmake-modules): Módulos y scripts adicionales para CMake
+
+[maui-frameworks/mauikit](https://invent.kde.org/maui/mauikit): Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
+
+[maui-frameworks/mauikit-archiver](https://invent.kde.org/maui/mauikit-archiver): Plugin QtQuick para gestión de archivos comprimidos
+
+[maui-frameworks/mauikit-documents](https://invent.kde.org/maui/mauikit-documents): Plugin QtQuick de MauiKit para edición de texto
+
+[maui-frameworks/mauikit-filebrowsing](https://invent.kde.org/maui/mauikit-filebrowsing): Utilidades y controles de MauiKit para navegación de archivos
+
+[maui-frameworks/mauikit-terminal](https://invent.kde.org/maui/mauikit-terminal): Soporte de componentes de terminal para aplicaciones de Maui
+
+[maui-frameworks/mauikit-texteditor](https://invent.kde.org/maui/mauikit-texteditor): Componentes de editor de texto de MauiKit
+
+[maui-frameworks/mauiman](https://invent.kde.org/maui/mauiman): Librería de gestor de Maui. API de servidor y librería pública
 
 
 <hr />
