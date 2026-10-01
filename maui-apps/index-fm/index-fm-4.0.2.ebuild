@@ -21,7 +21,7 @@ SLOT="6"
 # requires running environment
 RESTRICT="test"
 
-COMMON_DEPEND="
+RDEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtmultimedia-${QTMIN}:6
