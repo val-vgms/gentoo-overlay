@@ -21,7 +21,7 @@ SLOT="6"
 # requires running environment
 RESTRICT="test"
 
-COMMON_DEPEND="
+RDEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6
 	sys-devel/gcc
 	sys-libs/glibc
