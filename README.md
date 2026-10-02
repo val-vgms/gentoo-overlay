@@ -71,6 +71,11 @@ Los paquetes disponibles aquí son:
 [kde-apps/koko](https://invent.kde.org/graphics/koko): Aplicación de galería de imágenes
 
 
+**Accesorios**
+
+[maui-apps/nota](https://invent.kde.org/maui/nota): Editor de texto multiplataforma
+
+
 **Librerías**
 
 [kde-frameworks/extra-cmake-modules](https://invent.kde.org/frameworks/extra-cmake-modules): Módulos y scripts adicionales para CMake
