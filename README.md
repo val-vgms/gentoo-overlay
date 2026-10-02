@@ -70,6 +70,8 @@ Los paquetes disponibles aquí son:
 
 [kde-apps/koko](https://invent.kde.org/graphics/koko): Aplicación de galería de imágenes
 
+[maui-apps/maui-pix](https://invent.kde.org/maui/maui-pix): Aplicación de galería de imágenes
+
 
 **Accesorios**
 
@@ -87,6 +89,8 @@ Los paquetes disponibles aquí son:
 [maui-frameworks/mauikit-documents](https://invent.kde.org/maui/mauikit-documents): Plugin QtQuick de MauiKit para edición de texto
 
 [maui-frameworks/mauikit-filebrowsing](https://invent.kde.org/maui/mauikit-filebrowsing): Utilidades y controles de MauiKit para navegación de archivos
+
+[maui-frameworks/mauikit-imagetools](https://invent.kde.org/maui/mauikit-imagetools): Componentes de herramientas de imágenes de MauiKit
 
 [maui-frameworks/mauikit-terminal](https://invent.kde.org/maui/mauikit-terminal): Soporte de componentes de terminal para aplicaciones de Maui
 
