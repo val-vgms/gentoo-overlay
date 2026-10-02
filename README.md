@@ -37,7 +37,7 @@ Los paquetes disponibles aquí son:
 
 [x11-terms/qmlkonsole](https://invent.kde.org/plasma-mobile/qmlkonsole): Aplicación de terminal para Plasma Mobile
 
-[maui-apps/station](https://invent.kde.org/maui/maui-station): Emulador de terminal convergente
+[maui-apps/maui-station](https://invent.kde.org/maui/maui-station): Emulador de terminal convergente
 
 
 **Paquetes de iconos**
