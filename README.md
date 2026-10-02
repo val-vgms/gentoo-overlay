@@ -77,6 +77,8 @@ Los paquetes disponibles aquí son:
 
 [maui-apps/nota](https://invent.kde.org/maui/nota): Editor de texto multiplataforma
 
+[maui-apps/arca](https://invent.kde.org/maui/arca): Archivador para archivos comprimidos
+
 
 **Librerías**
 
