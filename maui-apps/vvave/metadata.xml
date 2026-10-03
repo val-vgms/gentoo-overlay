@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Multi-platform media player
+    </longdescription>
+    <longdescription lang="es">
+        Reproductor multimedia multiplataforma
+    </longdescription>
+    <upstream>
+        <remote-id>https://invent.kde.org/maui/vvave</remote-id>
+    </upstream>
+</pkgmetadata>
