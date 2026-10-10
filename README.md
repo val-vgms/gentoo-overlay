@@ -91,7 +91,7 @@ Los paquetes disponibles aquí son:
 
 [maui-frameworks/mauikit](https://invent.kde.org/maui/mauikit): Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
 
-[maui-frameworks/maikit-accounts]https://invent.kde.org/maui/mauikit-accounts): Utilidades de MauiKit para gestionar cuentas de usuarios
+[maui-frameworks/maikit-accounts](https://invent.kde.org/maui/mauikit-accounts): Utilidades de MauiKit para gestionar cuentas de usuarios
 
 [maui-frameworks/mauikit-archiver](https://invent.kde.org/maui/mauikit-archiver): Plugin QtQuick para gestión de archivos comprimidos
 
