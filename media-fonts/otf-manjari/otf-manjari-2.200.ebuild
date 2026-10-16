@@ -6,8 +6,8 @@ EAPI=8
 FONT_SUFFIX="otf"
 inherit font readme.gentoo-r1
 
-DESCRIPTION="Emoji as a Service (formerly known as EmojiOne)"
-HOMEPAGE="https://www.joypixels.com/"
+DESCRIPTION="Malayalam unicode font with rounded terminals suitable for body text"
+HOMEPAGE="https://smc.org.in/fonts"
 SRC_URI="https://releases.smc.org.in/fonts/manjari/Version2.200/manjari-Version2.200.zip -> ${P}.zip"
 S="${WORKDIR}"
 
