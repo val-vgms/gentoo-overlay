@@ -10,7 +10,6 @@ SRC_URI="https://github.com/saatvik333/${PN}/archive/refs/tags/v${PV}.tar.gz"
 LICENSE="GPL-2+"
 KEYWORDS="amd64 arm64"
 SLOT="0"
-KDE_ORG_CATEGORY="network"
 
 DEPEND="dev-libs/wayland"
 
