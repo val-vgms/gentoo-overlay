@@ -12,6 +12,6 @@
         Componentes de editor de texto de MauiKit
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/mauikit-texteditor-src</remote-id>
     </upstream>
 </pkgmetadata>

@@ -11,12 +11,13 @@ QTMIN=6.11.2
 inherit ecm gear.kde.org
 
 DESCRIPTION="Image gallery application"
-HOMEPAGE="https://invent.kde.org/maui/maui-pix https://mauikit.org/apps/pix"
+HOMEPAGE="https://github.com/Nitrux/maui-pix https://mauikit.org/apps/pix"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}/archive/refs/tags/${PV}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/${PN}-${PV}"
 
 # requires running environment
 RESTRICT="test"
@@ -36,11 +37,6 @@ RDEPEND="
 BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
-
-src_unpack(){
-    unpack ${A}
-    mv ${WORKDIR}/${PN}-v${PV}*/ ${WORKDIR}/${P}
-}
 
 src_prepare() {
 	ecm_src_prepare

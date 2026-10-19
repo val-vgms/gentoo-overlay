@@ -10,13 +10,14 @@ KFMIN=6.27.0
 QTMIN=6.11.2
 inherit ecm gear.kde.org
 
-DESCRIPTION="Templated convergent controls and multi-platform utilities for Maui applications"
-HOMEPAGE="https://mauikit.org/"
+DESCRIPTION="QtQuick plugin for online archived/compressed files management"
+HOMEPAGE="https://github.com/Nitrux/mauikit-archiver-src https://mauikit.org/"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}-src/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/${PN}-src-${PV}"
 
 # requires running environment
 RESTRICT="test"
@@ -24,8 +25,7 @@ RESTRICT="test"
 RDEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6
 	>=dev-qt/qtdeclarative-${QTMIN}:6
-	>=dev-qt/qtmultimedia-${QTMIN}:6
-	>=dev-qt/qtsvg-${QTMIN}:6
+	>=kde-frameworks/karchive-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kio-${KFMIN}:6
@@ -34,23 +34,13 @@ RDEPEND="
 	>=kde-frameworks/kwindowsystem-${KFMIN}:6
 	>=kde-frameworks/purpose-${KFMIN}:6
 	maui-frameworks/mauikit
-	maui-frameworks/mauikit-archiver
-	maui-frameworks/mauikit-documents
 	maui-frameworks/mauikit-filebrowsing
-	maui-frameworks/mauikit-terminal
-	maui-frameworks/mauikit-texteditor
-	maui-frameworks/mauiman
 	sys-devel/gcc
 	sys-libs/glibc
 "
 BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
-
-src_unpack(){
-    unpack ${A}
-    mv ${WORKDIR}/${PN}-v${PV}*/ ${WORKDIR}/${P}
-}
 
 src_prepare() {
 	ecm_src_prepare

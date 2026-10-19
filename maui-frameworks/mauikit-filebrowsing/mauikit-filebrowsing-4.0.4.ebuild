@@ -11,12 +11,13 @@ QTMIN=6.11.2
 inherit ecm gear.kde.org
 
 DESCRIPTION="QtQuick plugin for online archived/compressed files management"
-HOMEPAGE="https://mauikit.org/"
+HOMEPAGE="https://github.com/Nitrux/mauikit-filefrowsing-src https://mauikit.org/"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}-src/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/${PN}-src-${PV}"
 
 # requires running environment
 RESTRICT="test"
@@ -39,11 +40,6 @@ RDEPEND="
 BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
-
-src_unpack(){
-    unpack ${A}
-    mv ${WORKDIR}/${PN}-v${PV}*/ ${WORKDIR}/${P}
-}
 
 src_prepare() {
 	ecm_src_prepare

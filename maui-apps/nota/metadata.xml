@@ -12,6 +12,6 @@
         Editor de texto multiplataforma
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/maui-nota</remote-id>
     </upstream>
 </pkgmetadata>

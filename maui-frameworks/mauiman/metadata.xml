@@ -12,6 +12,6 @@
         Librería de gestor de Maui. API de servidor y librería pública
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/maui-manager-src</remote-id>
     </upstream>
 </pkgmetadata>

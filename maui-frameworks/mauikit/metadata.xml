@@ -12,6 +12,6 @@
         Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/mauikit-src</remote-id>
     </upstream>
 </pkgmetadata>

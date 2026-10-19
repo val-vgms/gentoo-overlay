@@ -12,6 +12,6 @@
         Aplicación de galería de imágenes
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/maui-pix</remote-id>
     </upstream>
 </pkgmetadata>

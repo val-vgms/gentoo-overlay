@@ -12,6 +12,6 @@
         Soporte de componentes de terminal para aplicaciones de Maui
     </longdescription>
     <upstream>
-        <remote-id>https://invent.kde.org/maui/index-fm</remote-id>
+        <remote-id>https://github.com/Nitrux/mauikit-terminal-src</remote-id>
     </upstream>
 </pkgmetadata>

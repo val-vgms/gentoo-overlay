@@ -10,39 +10,39 @@ KFMIN=6.27.0
 QTMIN=6.11.2
 inherit ecm gear.kde.org
 
-DESCRIPTION="Multi-platform file manager"
-HOMEPAGE="https://apps.kde.org/index-fm/ https://mauikit.org/apps/index"
+DESCRIPTION="MauiKit Image Tools Components"
+HOMEPAGE="https://github.com/Nitrux/mauikit-imagetools-src https://mauikit.org/"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}-src/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/${PN}-src-${PV}"
 
 # requires running environment
 RESTRICT="test"
 
 RDEPEND="
+	app-text/tesseract
 	>=dev-qt/qtbase-${QTMIN}:6
 	>=dev-qt/qtdeclarative-${QTMIN}:6
-	>=dev-qt/qtmultimedia-${QTMIN}:6
+	>=dev-qt/qtlocation-${QTMIN}:6
+	>=dev-qt/qtpositioning-${QTMIN}:6
+	kde-apps/libexiv2
+	>=kde-frameworks/karchive-${KFMIN}:6
+	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
-	>=kde-frameworks/kio-${KFMIN}:6
+	>=kde-frameworks/kquickimageeditor-${KFMIN}:6
 	maui-frameworks/mauikit
-	maui-frameworks/mauikit-archiver
-	maui-frameworks/mauikit-documents
 	maui-frameworks/mauikit-filebrowsing
-	maui-frameworks/mauikit-terminal
-	maui-frameworks/mauikit-texteditor
+	media-libs/leptonica
+	sys-devel/gcc
+	sys-libs/glibc
 "
 BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
-
-src_unpack(){
-    unpack ${A}
-    mv ${WORKDIR}/${PN}-v${PV}*/ ${WORKDIR}/${P}
-}
 
 src_prepare() {
 	ecm_src_prepare

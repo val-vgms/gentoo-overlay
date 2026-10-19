@@ -21,7 +21,7 @@ Los paquetes disponibles aquí son:
 
 [kde-misc/kio-onedrive](https://invent.kde.org/bernardogn/kio-onedrive): Función KIO para el servicio de OneDrive
 
-[maui-apps/index-fm](https://invent.kde.org/maui/index-fm): Gestor de archivos multiplataforma
+[maui-apps/index-fm](https://github.com/Nitrux/maui-index): Gestor de archivos multiplataforma
 
 
 **Tipografías**
@@ -37,7 +37,7 @@ Los paquetes disponibles aquí son:
 
 [x11-terms/qmlkonsole](https://invent.kde.org/plasma-mobile/qmlkonsole): Aplicación de terminal para Plasma Mobile
 
-[maui-apps/maui-station](https://invent.kde.org/maui/maui-station): Emulador de terminal convergente
+[maui-apps/maui-station](https://github.com/Nitrux/maui-station): Emulador de terminal convergente
 
 
 **Paquetes de iconos**
@@ -70,42 +70,42 @@ Los paquetes disponibles aquí son:
 
 [kde-apps/koko](https://invent.kde.org/graphics/koko): Aplicación de galería de imágenes
 
-[maui-apps/maui-pix](https://invent.kde.org/maui/maui-pix): Aplicación de galería de imágenes
+[maui-apps/maui-pix](https://github.com/Nitrux/maui-pix): Aplicación de galería de imágenes
 
 
 **Accesorios**
 
-[maui-apps/nota](https://invent.kde.org/maui/nota): Editor de texto multiplataforma
+[maui-apps/nota](https://github.com/Nitrux/maui-nota): Editor de texto multiplataforma
 
 [maui-apps/arca](https://invent.kde.org/maui/arca): Archivador para archivos comprimidos
 
 
 **Multimedia**
 
-[maui-apps/vvave](https://invent.kde.org/maui/vvave): Reproductor de medios multiplataforma
+[maui-apps/vvave](https://github.com/Nitrux/maui-vvave): Reproductor de medios multiplataforma
 
 
 **Librerías**
 
 [kde-frameworks/extra-cmake-modules](https://invent.kde.org/frameworks/extra-cmake-modules): Módulos y scripts adicionales para CMake
 
-[maui-frameworks/mauikit](https://invent.kde.org/maui/mauikit): Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
+[maui-frameworks/mauikit](https://github.com/Nitrux/mauikit-src): Plantillas de controles convergentes y utilidades multiplataforma para aplicaciones Maui
 
-[maui-frameworks/maikit-accounts](https://invent.kde.org/maui/mauikit-accounts): Utilidades de MauiKit para gestionar cuentas de usuarios
+[maui-frameworks/maikit-accounts](https://github.com/Nitrux/mauikit-accounts-src): Utilidades de MauiKit para gestionar cuentas de usuarios
 
-[maui-frameworks/mauikit-archiver](https://invent.kde.org/maui/mauikit-archiver): Plugin QtQuick para gestión de archivos comprimidos
+[maui-frameworks/mauikit-archiver](https://github.com/Nitrux/mauikit-archiver-src): Plugin QtQuick para gestión de archivos comprimidos
 
-[maui-frameworks/mauikit-documents](https://invent.kde.org/maui/mauikit-documents): Plugin QtQuick de MauiKit para edición de texto
+[maui-frameworks/mauikit-documents](https://github.com/Nitrux/mauikit-documents-src): Plugin QtQuick de MauiKit para edición de texto
 
-[maui-frameworks/mauikit-filebrowsing](https://invent.kde.org/maui/mauikit-filebrowsing): Utilidades y controles de MauiKit para navegación de archivos
+[maui-frameworks/mauikit-filebrowsing](https://github.com/Nitrux/mauikit-filebrowsing-src): Utilidades y controles de MauiKit para navegación de archivos
 
-[maui-frameworks/mauikit-imagetools](https://invent.kde.org/maui/mauikit-imagetools): Componentes de herramientas de imágenes de MauiKit
+[maui-frameworks/mauikit-imagetools](https://github.com/Nitrux/mauikit-imagetools-src): Componentes de herramientas de imágenes de MauiKit
 
-[maui-frameworks/mauikit-terminal](https://invent.kde.org/maui/mauikit-terminal): Soporte de componentes de terminal para aplicaciones de Maui
+[maui-frameworks/mauikit-terminal](https://github.com/Nitrux/mauikit-terminal-src): Soporte de componentes de terminal para aplicaciones de Maui
 
-[maui-frameworks/mauikit-texteditor](https://invent.kde.org/maui/mauikit-texteditor): Componentes de editor de texto de MauiKit
+[maui-frameworks/mauikit-texteditor](https://github.com/Nitrux/mauikit-texteditor-src): Componentes de editor de texto de MauiKit
 
-[maui-frameworks/mauiman](https://invent.kde.org/maui/mauiman): Librería de gestor de Maui. API de servidor y librería pública
+[maui-frameworks/mauiman](https://github.com/Nitrux/maui-manager-src): Librería de gestor de Maui. API de servidor y librería pública
 
 
 <hr />

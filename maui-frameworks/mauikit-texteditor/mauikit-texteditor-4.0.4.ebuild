@@ -10,13 +10,14 @@ KFMIN=6.27.0
 QTMIN=6.11.2
 inherit ecm gear.kde.org
 
-DESCRIPTION="Convergent terminal emulator"
-HOMEPAGE="https://invent.kde.org/maui/maui-station https://mauikit.org/apps/station"
+DESCRIPTION="MauiKit Text Editor components"
+HOMEPAGE="https://github.com/Nitrux/mauikit-texteditor-src https://mauikit.org/"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}-src/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/${PN}-src-${PV}"
 
 # requires running environment
 RESTRICT="test"
@@ -26,20 +27,16 @@ RDEPEND="
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
+	>=kde-frameworks/kpty-${KFMIN}:6
+	>=kde-frameworks/sonnet-${KFMIN}:6
+	>=kde-frameworks/syntax-highlighting-${KFMIN}:6
 	maui-frameworks/mauikit
-	maui-frameworks/mauikit-filebrowsing
-	maui-frameworks/mauikit-terminal
 	sys-devel/gcc
 	sys-libs/glibc
 "
 BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
-
-src_unpack(){
-    unpack ${A}
-    mv ${WORKDIR}/${PN}-v${PV}*/ ${WORKDIR}/${P}
-}
 
 src_prepare() {
 	ecm_src_prepare

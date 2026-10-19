@@ -10,24 +10,20 @@ KFMIN=6.27.0
 QTMIN=6.11.2
 inherit ecm gear.kde.org
 
-DESCRIPTION="Terminal support components for Maui applications"
-HOMEPAGE="https://mauikit.org/"
+DESCRIPTION="Maui Manager Library. Server and public library API."
+HOMEPAGE="https://github.com/Nitrux/maui-manager-src https://mauikit.org/"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/Nitrux/maui-manager-src/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
+S="${WORKDIR}/maui-manager-src-${PV}"
 
 # requires running environment
 RESTRICT="test"
 
 RDEPEND="
-	>=dev-qt/qt5compat-${QTMIN}:6
 	>=dev-qt/qtbase-${QTMIN}:6
-	>=dev-qt/qtdeclarative-${QTMIN}:6
-	>=kde-frameworks/kcoreaddons-${KFMIN}:6
-	>=kde-frameworks/kpty-${KFMIN}:6
-	maui-frameworks/mauikit
 	sys-devel/gcc
 	sys-libs/glibc
 "
