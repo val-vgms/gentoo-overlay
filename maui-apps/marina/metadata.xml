@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Marina is a QML-based dock designed for Nitrux.
+    </longdescription>
+    <longdescription lang="es">
+        Marina es un dock basado en QML diseñado para Nitrux.
+    </longdescription>
+    <upstream>
+        <remote-id>https://github.com/Nitrux/marina</remote-id>
+    </upstream>
+</pkgmetadata>
