@@ -23,7 +23,7 @@ S="${WORKDIR}/${PN}-src-${PV}"
 RESTRICT="test"
 
 RDEPEND="
-	>=dev-qt/qtbase-${QTMIN}:6
+	>=dev-qt/qtbase-${QTMIN}:6[concurrent]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtmultimedia-${QTMIN}:6
 	>=dev-qt/qtsvg-${QTMIN}:6
@@ -34,12 +34,6 @@ RDEPEND="
 	>=kde-frameworks/knotifications-${KFMIN}:6
 	>=kde-frameworks/kwindowsystem-${KFMIN}:6
 	>=kde-frameworks/purpose-${KFMIN}:6
-	maui-frameworks/mauikit
-	maui-frameworks/mauikit-archiver
-	maui-frameworks/mauikit-documents
-	maui-frameworks/mauikit-filebrowsing
-	maui-frameworks/mauikit-terminal
-	maui-frameworks/mauikit-texteditor
 	maui-frameworks/mauiman
 	sys-devel/gcc
 	sys-libs/glibc
