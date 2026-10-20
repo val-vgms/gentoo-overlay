@@ -15,7 +15,7 @@ HOMEPAGE="https://github.com/Nitrux/maui-pix https://mauikit.org/apps/pix"
 
 LICENSE="LGPL-3"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-SRC_URI="https://github.com/Nitrux/${PN}/archive/refs/tags/${PV}.tar.gz"
+SRC_URI="https://github.com/Nitrux/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="6"
 S="${WORKDIR}/${PN}-${PV}"
 
