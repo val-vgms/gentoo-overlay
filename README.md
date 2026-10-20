@@ -65,6 +65,8 @@ Los paquetes disponibles aquí son:
 
 [app-misc/wayland-bongocat](https://github.com/saatvik333/wayland-bongocat): Bongocat para tu escritorio. ₍^. .^₎
 
+[maui-apps/marina](https://github.com/Nitrux/marina): Marina es un dock basado en QML diseñado para Nitrux.
+
 
 **Aplicaciones gráficas**
 
