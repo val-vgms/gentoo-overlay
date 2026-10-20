@@ -10,7 +10,7 @@ KFMIN=6.27.0
 QTMIN=6.11.2
 inherit ecm gear.kde.org
 
-DESCRIPTION="Image gallery application"
+DESCRIPTION="Web browser application built with MauiKit."
 HOMEPAGE="https://github.com/Nitrux/maui-fiery https://mauikit.org/apps/#/"
 
 LICENSE="LGPL-3"

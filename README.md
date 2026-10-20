@@ -85,6 +85,10 @@ Los paquetes disponibles aquí son:
 [maui-apps/vvave](https://github.com/Nitrux/maui-vvave): Reproductor de medios multiplataforma
 
 
+**Internet**
+[maui-apps/maui-fiery](https://github.com/Nitrux/maui-fiery): Aplicación de navegador de internet construida con MauiKit.
+
+
 **Librerías**
 
 [kde-frameworks/extra-cmake-modules](https://invent.kde.org/frameworks/extra-cmake-modules): Módulos y scripts adicionales para CMake
