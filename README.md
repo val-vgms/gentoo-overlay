@@ -86,7 +86,10 @@ Los paquetes disponibles aquí son:
 
 
 **Internet**
+
 [maui-apps/maui-fiery](https://github.com/Nitrux/maui-fiery): Aplicación de navegador de internet construida con MauiKit.
+
+[maui-apps/cinderward](https://github.com/Nitrux/cinderward): Aplicación gráfica simple, agnóstica de inicio y amistosa con Wayland para firewalld.
 
 
 **Librerías**
