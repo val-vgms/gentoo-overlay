@@ -104,6 +104,8 @@ Los paquetes disponibles aquí son:
 
 [maui-frameworks/mauikit-archiver](https://github.com/Nitrux/mauikit-archiver-src): Plugin QtQuick para gestión de archivos comprimidos
 
+[maui-frameworks/mauikit-calendar](https://github.com/Nitrux/mauikit-calendar-src): Modelos de datos de calendario y componentes de interfaz para aplicaciones MauiKit.
+
 [maui-frameworks/mauikit-documents](https://github.com/Nitrux/mauikit-documents-src): Plugin QtQuick de MauiKit para edición de texto
 
 [maui-frameworks/mauikit-filebrowsing](https://github.com/Nitrux/mauikit-filebrowsing-src): Utilidades y controles de MauiKit para navegación de archivos

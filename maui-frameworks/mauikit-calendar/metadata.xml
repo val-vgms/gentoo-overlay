@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Calendar data models and UI components for MauiKit applications.
+    </longdescription>
+    <longdescription lang="es">
+        Modelos de datos de calendario y componentes de interfaz para aplicaciones MauiKit.
+    </longdescription>
+    <upstream>
+        <remote-id>https://github.com/Nitrux/mauikit-calendar-src</remote-id>
+    </upstream>
+</pkgmetadata>
