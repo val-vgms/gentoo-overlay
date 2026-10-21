@@ -30,7 +30,6 @@ RDEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	maui-frameworks/mauikit
-	maui-frameworks/mauikit-audio
 	sys-devel/gcc
 	sys-libs/glibc
 "
