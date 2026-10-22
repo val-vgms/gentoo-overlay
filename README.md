@@ -83,6 +83,8 @@ Los paquetes disponibles aquí son:
 
 [maui-apps/maui-agenda](https://github.com/Nitrux/maui-agenda): Aplicación de calendario construida con Mauikit.
 
+[maui-apps/maui-buho](https://github.com/Nitrux/maui-buho): Aplicación para tomar notas construida con MauiKit.
+
 
 **Multimedia**
 
