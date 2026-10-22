@@ -1,0 +1,15 @@
+diff --git a/src/controls/main.qml b/src/controls/main.qml
+index ccd125b..f82c0be 100644
+--- a/src/controls/main.qml
++++ b/src/controls/main.qml
+@@ -2,8 +2,8 @@ import QtQuick
+ import QtQml
+ import QtQuick.Controls
+ import QtQuick.Layouts
+-import org.mauikit.controls 1.0 as Maui
+-import org.mauikit.calendar 1.0 as Cal
++import org.mauikit.controls as Maui
++import org.mauikit.calendar as Cal
+ 
+ Maui.ApplicationWindow
+ {

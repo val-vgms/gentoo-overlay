@@ -36,6 +36,8 @@ BDEPEND="
 	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
 "
 
+PATCHES="${FILESDIR}/qmlimportcorrection.patch"
+
 src_prepare() {
 	ecm_src_prepare
 }
