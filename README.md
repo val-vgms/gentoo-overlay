@@ -90,6 +90,8 @@ Los paquetes disponibles aquí son:
 
 [maui-apps/vvave](https://github.com/Nitrux/maui-vvave): Reproductor de medios multiplataforma
 
+[maui-apps/maui-clip](https://github.com/Nitrux/maui-clip): Reproductor de vídeo y administrador de colecciones de vídeo
+
 
 **Internet**
 

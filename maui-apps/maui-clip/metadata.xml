@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>valeriagracielamendezsanchez@gmail.com</email>
+        <name>Val</name>
+    </maintainer>
+    <longdescription lang="en">
+        Video player and video collection manager
+    </longdescription>
+    <longdescription lang="es">
+        Reproductor de vídeo y administrador de colecciones de vídeo
+    </longdescription>
+    <upstream>
+        <remote-id>https://github.com/Nitrux/maui-clip</remote-id>
+    </upstream>
+</pkgmetadata>
