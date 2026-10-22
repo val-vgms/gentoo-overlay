@@ -81,6 +81,8 @@ Los paquetes disponibles aquí son:
 
 [maui-apps/arca](https://invent.kde.org/maui/arca): Archivador para archivos comprimidos
 
+[maui-apps/maui-agenda](https://github.com/Nitrux/maui-agenda): Aplicación de calendario construida con Mauikit.
+
 
 **Multimedia**
 
