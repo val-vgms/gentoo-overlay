@@ -8,7 +8,7 @@ ECM_TEST="true"
 PVCUT=$(ver_cut 1-3)
 KFMIN=6.27.0
 QTMIN=6.11.2
-inherit ecm gear.kde.org
+inherit ecm gear.kde.org xdg
 
 DESCRIPTION="A simple, no-nonsense, init-agnostic, Wayland-friendly GUI for firewalld."
 HOMEPAGE="https://github.com/Nitrux/cinderward"

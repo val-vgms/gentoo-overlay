@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="Bongocat for your desktop ₍^. .^₎"
 HOMEPAGE="https://github.com/saatvik333/wayland-bongocat"
-SRC_URI="https://github.com/saatvik333/${PN}/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/saatvik333/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}"
 
 LICENSE="GPL-2+"
 KEYWORDS="amd64 arm64"
