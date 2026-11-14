@@ -65,7 +65,7 @@ RDEPEND="${COMMON_DEPEND}
 BDEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6[wayland]
 	dev-util/wayland-scanner
-	>=kde-frameworks/extra-cmake-modules-${KFMIN}::val-vgms
+	>=kde-frameworks/extra-cmake-modules-${KFMIN}
 "
 
 src_unpack(){
