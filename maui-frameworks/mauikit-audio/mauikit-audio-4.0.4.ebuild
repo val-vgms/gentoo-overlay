@@ -34,7 +34,7 @@ RDEPEND="
 	sys-libs/glibc
 "
 BDEPEND="
-	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
+	>=kde-frameworks/extra-cmake-modules-${KFMIN}
 "
 
 src_prepare() {

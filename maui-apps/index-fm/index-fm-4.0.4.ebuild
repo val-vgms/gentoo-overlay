@@ -37,7 +37,7 @@ RDEPEND="
 	maui-frameworks/mauikit-texteditor
 "
 BDEPEND="
-	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
+	>=kde-frameworks/extra-cmake-modules-${KFMIN}
 "
 
 src_prepare() {

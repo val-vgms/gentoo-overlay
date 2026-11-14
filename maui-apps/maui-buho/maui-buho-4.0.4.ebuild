@@ -35,7 +35,7 @@ RDEPEND="
 	x11-themes/hicolor-icon-theme
 "
 BDEPEND="
-	>=kde-frameworks/extra-cmake-modules-${KFMIN}:6
+	>=kde-frameworks/extra-cmake-modules-${KFMIN}
 "
 
 src_prepare() {
