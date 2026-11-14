@@ -74,6 +74,8 @@ Los paquetes disponibles aquí son:
 
 [maui-apps/maui-pix](https://github.com/Nitrux/maui-pix): Aplicación de galería de imágenes
 
+[kde-apps/plasma-camera](https://invent.kde.org/plasma-mobile/plasma-camera): Aplicación de cámara para Plasma Mobile
+
 
 **Accesorios**
 
